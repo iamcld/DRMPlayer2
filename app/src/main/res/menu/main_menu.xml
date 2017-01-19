@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<item-->
+        <!--android:id="@+id/ilove"-->
+        <!--android:icon="@mipmap/app_love_list"-->
+        <!--android:showAsAction="ifRoom"-->
+        <!--android:title="@string/action_contact"/>-->
+
+    <item
+        android:id="@+id/newMyMusic"
+        android:title="@string/action_contact_0"
+        app:showAsAction="ifRoom"
+        xmlns:app="http://schemas.android.com/apk/res-auto"/>
+    <item
+        android:id="@+id/ilove"
+        android:title="@string/action_contact"
+        app:showAsAction="ifRoom"
+        xmlns:app="http://schemas.android.com/apk/res-auto"/>
+
+    <item
+        android:id="@+id/near_play"
+        android:title="@string/action_contact_2"
+        app:showAsAction="ifRoom"
+        xmlns:app="http://schemas.android.com/apk/res-auto"/>
+    <item
+        android:id="@+id/exit"
+        android:title="退出"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:showAsAction="ifRoom"/>
+</menu>

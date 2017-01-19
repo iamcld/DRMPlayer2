@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/album_image_layout"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView2_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="歌名"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_gravity="center_horizontal"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView1_ablum"
+        android:layout_width="192dp"
+        android:layout_height="192dp"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/app_icon"
+        android:layout_below="@+id/textView1_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:id="@+id/imageView1_ablum_reflection"
+        android:layout_width="192dp"
+        android:layout_height="96dp"
+        android:layout_gravity="center"
+        android:layout_below="@+id/imageView1_ablum"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/seekBar1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="向右滑动查看歌词 → "
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/textView2" />
+
+</LinearLayout>

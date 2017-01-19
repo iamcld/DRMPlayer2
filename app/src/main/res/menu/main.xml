@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_contact"
+        android:icon="@drawable/ic_action_user"
+        app:showAsAction="ifRoom"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:title="@string/action_contact"/>
+
+    <!--<item-->
+        <!--android:id="@+id/action_contact2"-->
+        <!--android:icon="@mipmap/app_love_selected"-->
+        <!--android:showAsAction="ifRoom"-->
+        <!--android:title="@string/action_contact"/>-->
+    <item
+        android:id="@+id/action_contact2"
+        android:icon="@mipmap/app_love_selected"
+        app:showAsAction="ifRoom"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:title="@string/action_contact"/>
+</menu>

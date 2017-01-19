@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="在音乐播放界面点击爱心进行收藏"
+        android:textColor="@android:color/white"
+        android:background="#686868"
+        android:textSize="15sp"
+        android:id="@+id/textView2_love"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView_love"
+        android:layout_below="@+id/textView2_love"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
